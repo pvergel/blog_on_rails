@@ -1,7 +1,6 @@
-
-
-
-<%= form_for :post, url: posts_path do |f| %>
+<h1>Editing post</h1>
+ 
+<%= form_for :post, url: post_path(@post), method: :patch do |f| %>
   <% if @post.errors.any? %>
   <div id="error_explanation">
     <h2><%= pluralize(@post.errors.count, "error") %> prohibited
@@ -27,6 +26,7 @@
     <%= f.label :picture %><br>
     <%= f.text_field :picture %>
   </p>
+
  
   <p>
     <%= f.submit %>
