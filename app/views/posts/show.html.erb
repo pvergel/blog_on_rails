@@ -2,16 +2,18 @@
   <strong>Title:</strong>
   <%= @post.title %>
 </p>
+
+<p>
+  
+  <img src= '<%=@post.picture%>' width="200px" height="200px">
+</p>
+
  
 <p>
   <strong>Text:</strong>
   <%= @post.text %>
 </p>
 
-<p>
-  <strong>Picture:</strong>
-  <%= @post.picture %>
-</p>
 
 <h2>Comments</h2>
 <% @post.comments.each do |comment| %>
