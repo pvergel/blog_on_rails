@@ -11,3 +11,48 @@
  *= require_self
  *= require_tree .
  */
+
+
+#index_list {
+  width: 500px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+#show {
+	width: 600px ;
+  margin-left: auto ;
+  margin-right: auto ;
+
+}
+
+#show img {
+	
+  margin-left: auto ;
+  margin-right: auto ;
+
+}
+
+
+
+#front img{
+  display: block;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+h1 {
+	text-align: center;
+}
+
+#welcome {
+
+  margin-left: auto ;
+  margin-right: auto ;
+
+}
+
+#welcome img{
+  display: block;
+  margin-left: auto ;
+  margin-right: auto ;
